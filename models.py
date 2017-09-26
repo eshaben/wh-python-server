@@ -13,7 +13,8 @@ def create_db():
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         name TEXT NOT NULL,
         outer_diameter INTEGER NOT NULL,
-        tubing_size TEXT NOT NULL
+        tubing_size TEXT NOT NULL,
+        image_url TEXT NOT NULL
         );
         """
         c.execute(table)
